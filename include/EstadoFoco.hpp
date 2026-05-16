@@ -1,11 +1,4 @@
-class EstadoFoco
-{
-private:
-    bool encendido;
-public:
-    EstadoFoco() { this->encendido = false ;
-        
+#pragma once
+#include <string>
 
-    }
-    ~EstadoFoco() {}
-};
+typedef char EstadoFoco;
