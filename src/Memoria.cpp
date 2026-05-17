@@ -26,6 +26,9 @@ cout<<direccion<<endl;
 cout<<&direccion<<endl;
 cout<<*direccion<<endl;
 
-
+int-* dir;
+int* dir = (int*) malloc(sizeof(int));
+_* dir=7;
+cout<<*dir<<endl;
 return 0;
 }
